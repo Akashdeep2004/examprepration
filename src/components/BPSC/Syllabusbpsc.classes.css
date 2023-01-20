@@ -1,0 +1,21 @@
+.upper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10vh 0;
+}
+
+.lower {
+  width: 100%;
+  text-align: center;
+}
+
+#state {
+  margin: 3vh auto ;
+  text-align: center;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

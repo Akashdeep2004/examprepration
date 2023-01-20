@@ -1,0 +1,43 @@
+.pages1 {
+  color: black;
+  width: 30%;
+  height: 10vh;
+  text-align: center;
+  margin: auto;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 300ms;
+  border: 1px solid black;
+  margin-top: 5vh;
+}
+
+.pages1:nth-child(3):hover {
+  background-color: rgb(109, 2, 2);
+  color: aliceblue;
+}
+
+.pages1:nth-child(2):hover {
+  background-color: red;
+  color: aliceblue;
+}
+
+.pages1:hover {
+  background-color: yellowgreen;
+  color: aliceblue;
+}
+
+@media screen and (max-width: 600px){
+  .pages1 {
+    color: black;
+    background: linear-gradient(to right, rgb(45, 202, 250), rgb(91, 255, 206));
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: all 300ms;
+    border: 1px solid black;
+    margin-top: 5vh;
+  }
+}
